@@ -12,12 +12,12 @@ import shelve
 
 
 client = OpenAI(
-  api_key="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",
+  api_key=" ",
 )
 
 model_use = "gpt-4-1106-preview"
-channel_secret = "1985c78ee77004c9965a5cbe3d5c3e09"
-channel_access_token = "SkkGnd3WPBfS1FisUNxHv7UZxu+d/m8zpFMYkA0S50OcDIkL/BY27TUrIcs8v2d7TCriPKhVOz+iDY8+VpMfKaugyYM+6kV7Y+MX3TC0e4C+biG7LbW865S8NAY8vqEKsdsZLGtfsuapEVCs/mS1JAdB04t89/1O/w1cDnyilFU="
+channel_secret = " "
+channel_access_token = " "
 
 line_bot_api = LineBotApi(channel_access_token)
 handler = WebhookHandler(channel_secret)
